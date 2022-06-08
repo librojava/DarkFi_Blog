@@ -1,4 +1,7 @@
-{% extends 'base.html' %}
+<!doctype html>
+<html>
+{% extends "base.html" %}
+
 {% block content %}
 
 <div class = "arrow">
@@ -9,12 +12,15 @@
         <p class ="Archive1" style="font-family: IBMPlexMono-Regular;">Archive</p>
       <nav class = "category1" style="list-style: none; font-family: IBMPlexMono-Regular;">
        <a>CATEGORIES</a>
-         <a>Insights</a>
-         <a>Technology</a>
-         <a>History</a>
-         <a>Markets</a>
-         <a>Xenopoetics</a>
       </nav>
+      <nav class = "category1" style="list-style: none; font-family: IBMPlexMono-Regular;">
+       <a href="{{ url_for('insight_archive') }}">Insights</a>
+       <a href="{{ url_for('technology_archive') }}">Technology</a>
+       <a href="{{ url_for('history_archive') }}">History</a>
+       <a href="{{ url_for('market_archive') }}">Markets</a>
+       <a href="{{ url_for('xenopoetisc_archive') }}">Xenopoetics</a>
+      </nav>
+
  </div>
 
 
@@ -79,3 +85,5 @@
       </div>
  </div>
 {% endblock %}
+</html>
+
