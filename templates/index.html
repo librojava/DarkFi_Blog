@@ -1,4 +1,6 @@
-{% extends 'base.html' %}
+<!doctype html>
+<html>
+{% extends "base.html" %}
 {% block content %}
 	
 <div class = "featured-article">
@@ -31,7 +33,7 @@
   <div class= "categories">
    <h4 class = "categories_bar">Categories</h4>
     <ul style="list-style: none;">
-     <li><a class = "remove-underline" href="{ {url_for('insight_archive') }}">Insights</a></li>
+     <li><a class = "remove-underline" href="{{ url_for('insight_archive') }}">Insights</a></li>
      <li><a class = "remove-underline" href="{{ url_for('technology_archive') }}">Technology</a></li>
      <li><a class = "remove-underline" href="{{ url_for('history_archive') }}">History</a></li>
      <li><a class = "remove-underline" href="{{ url_for('market_archive') }}">Markets</a></li>
@@ -71,11 +73,12 @@
   
   </div>
  </div>
-<div class = "content2">
+
+ <div class = "content2">
    <span class = "all-articles">
     <div class = "paragraphs">
       <p><a href= "{{url_for('archive')}}" style="font-family: IBMPlexMono-Regular; hover{ color: #b20a2c;}">All articles &#8594;</a></p>
-     </div>
+    </div>
    </span>
   <div class = "containers2">
   <div class = "middle-table">
@@ -87,7 +90,7 @@
 
 
   <div class = "group">
-  {% for article in posts if article.category == 'history' %}
+  {% for article in articles if article.category == 'history' %}
   <div class = "latest-img">
     <a class = "remove-underline" href = "{{ url_for(article.url) }}">
     <div class = "img-1">
@@ -136,6 +139,7 @@
 
       </div>
  </div>
-
-	
 {% endblock %}
+	
+
+

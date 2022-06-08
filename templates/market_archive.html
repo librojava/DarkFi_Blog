@@ -9,6 +9,8 @@
         <p class ="Archive1" style="font-family: IBMPlexMono-Regular;">Archive</p>
       <nav class = "category1" style="list-style: none; font-family: IBMPlexMono-Regular;">
        <a>CATEGORIES</a>
+       </nav>
+      <nav class = "category1" style="list-style: none; font-family: IBMPlexMono-Regular;">
          <a>Insights</a>
          <a>Technology</a>
          <a>History</a>
@@ -19,7 +21,7 @@
 
 
 <div class = "archives">
-  {% for article in posts %}
+  {% for article in posts if article.category == 'market' %}
 <div class = "archive">
  <a  class = "remove-underline" href="">
  <span class = "title-archive">
