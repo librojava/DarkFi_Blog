@@ -1,10 +1,10 @@
 ---
- url: history1
+ url: history6
  img: ../static/files/img/background_8.png
  category: history
  title: Title.
  paragraph: Subtitle--Lorem ipsum dolor sit amet,consectetur adipis<br> cing elit, sed do eiusmod tempor incididunt ut labore et nunc<br> dolore magna aliqua
- list1: 2022.04.03
+ list1: 2022.04.07
  list2: Permalink
  list3: History
  content_title: Header-Title,lorem ipsum.
@@ -104,10 +104,10 @@ At vero eos et accusamus et iusto odio dignissimos ducyimus qui blanditiis <br /
 Lorem ipsum dolor ait amet, consectetur adispiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, <br /> quis nostrud exercitation ullamco laboris.
 
 <div id="section">
- - At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti <br /> quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt <br /> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, <br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
+- At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti <br /> quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt <br /> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, <br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
  
- - Book title, Author name, 2020.Link to article:[http://www.coindesk.com/article-name/](#http://www.coindesk.com/article-name/)
+- Book title, Author name, 2020.Link to article:[http://www.coindesk.com/article-name/](#http://www.coindesk.com/article-name/)
 
- - At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti<br /> quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt<br> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
+- At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti<br /> quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt<br> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
 
 </div>

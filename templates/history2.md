@@ -33,30 +33,18 @@ caption
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br /> praesentium voluptatum deleniti atque corrupti quos dolores et quas <br /> molestias excepturi sint occaecati cupiditate non provident,similique sunt in <br /> culpa qui officia deserunt mollitia animi,id est laborum et dolorum fuga.Et <br />harum quidem rerum facilis est et expedita distinctio.Nam libero tempore, <br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod <br /> maxime placeat facer possimus,omnis voluptas assumenda est,omnis dolor <br /> repellendus.Temporibus autem quibusdam et aut officiis debitis aut rerum <br /> necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae <br /> non recusandae.Itaque earum rerum hic tentur a sapiente delectus,ut aut <br /> reiciendis voluptatibus maiores alias consequatur aut perferndis doloribus <br /> asperiores repellat
 
 ```
-
   if token_id_exists {
-
      self.send(pub_key,amount, token_id, false,state).await?;
-
   (target: "CLIENT")
-
          } else {
-
              return Err(ClientFailed::NotEnoughValue(amount));
-
          }
- 
          debug!(target: "CLIENT","End transfer{}",amount);
-
          OK(())
-
   (100
-
   character)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   xxxxxxxxxxxxxxx
- 
   }
-
 ```
 
 ### H3-Lorem Ipsum
@@ -115,10 +103,11 @@ At vero eos et accusamus et iusto odio dignissimos ducyimus qui blanditiis <br /
 
 Lorem ipsum dolor ait amet, consectetur adispiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, <br /> quis nostrud exercitation ullamco laboris.
 
-- At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti <br /> quos dolores et quas molestias excepturi sint occaecati [`cupiditate non provident,`](#cupiditate non provident,) similique sunt in culpa qui officia deserunt <br /> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, <br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
+<div id= "section">
+- At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti <br /> quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt <br /> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, <br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
  
-- Book title, Author name, 2020.Link to article:[`http://www.coindesk.com/article-name/`](#http://www.coindesk.com/article-name/)
+- Book title, Author name, 2020.Link to article:[http://www.coindesk.com/article-name/](#http://www.coindesk.com/article-name/)
 
-- At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti<br /> quos dolores et quas molestias excepturi sint occaecati [`cupiditate non provident,`](#cupiditate non provident,) similique sunt in culpa qui officia deserunt<br> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
+- At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti<br /> quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt<br> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,<br /> cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas <br /> assumenda est, omnis dolor repellendus.
 
-
+</div>
