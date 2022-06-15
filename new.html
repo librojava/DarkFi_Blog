@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+width: 1920px;
+background: #090909;
+}
+
+header{
+ background: #090909;
+ height: 94px;
+ width: 1920px;
+ }
+
+#main {
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-start;
+  padding: 20px 40px 20px 40px;
+}
+
+#main > div{
+ flex: 1;
+ }
+
+#logo{
+  width: 58.19px;
+  height: 49.57px;
+  padding-top: 2.22px;
+  position: absolute;
+  }
+  
+.nav{ 
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  width: 348px;
+  height: 39px;
+  left: 1492px;
+  padding-top: 7.5px;
+  }
+  
+.active{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 10px;
+  width: 119px;
+  }
+  
+.active a{
+  width: 89px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #F0F0F0
+  }
+  
+.man{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px;
+gap: 10px;
+width: 99px;
+  }
+  
+.man a{
+width: 69px;
+height: 17px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #F0F0F0;
+}
+
+.actives{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px;
+gap: 10px;
+width: 110px;
+height: 47px;
+ }
+ 
+.actives a{
+ width: 80px;
+ height: 17px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 17px;
+ color: #F0F0F0;
+  }
+ 
+.logo{
+position: absolute;
+width: 303px;
+height: 54px;
+left: 769px;
+padding-top: 0px;
+text-align: center;
+}
+
+.logo a{
+width: 303px;
+font-family: 'Inter Display';
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+color: #F0F0F0;
+text-shadow: 0px 0px 4px #00FFFF;
+    }
+#logo img{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+}
+
+.frame137{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 1px;
+ width: 1920px;
+ height: 1056px;
+}
+
+.frame160{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 754px;
+  height: 1056px;
+  background: linear-gradient(180deg, rgba(0, 55, 49, 0) 0%, #00120F 100%);
+}
+
+.frame139{
+  width: 511px;
+  height: 370px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  padding: 20px 440px 363px 40px;
+}
+
+.categories_bar {
+ width: 6px;
+ color: #FF0E3A;
+}
+
+.frame139 > div{
+width: 511px;
+height: 370px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+}
+
+footer{
+  width: 1920px;
+}
+
+.frame136{
+padding: 0px;
+width: 1164px;
+height: 1056px;
+}
+
+.frame61{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 29px;
+width: 1164px;
+height: 94px;
+background: #090909;
+border: 1px solid #4B4B4B;
+}
+
+.frame19{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 60px 60px 10px 40px;
+gap: 15px;
+width: 1064px;
+height: 24px;
+}
+
+.frame16{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 3px;
+width: 275px;
+height: 18px;
+padding: 3px 8px 3px 0px;
+}
+
+.paragraph{
+width: 275px;
+height: 18px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+align-items: flex-end;
+color: #596067;
+border: 1px solid #000000;
+}
+
+.group{
+  height: 962px;
+  width: 1164px;
+}
+
+.latest-img{
+ width: 580px;
+ height: 481px;
+ position: absolute;
+}
+
+.frame38{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ position: absolute;
+ width: 580px;
+ height: 481px;
+ left: 0px;
+ top: 0px;
+}
+
+.img-1{
+width: 557px;
+height: 259px;
+}
+
+.img-1 img{
+width: 581px;
+height: 259px;
+}
+
+.title-img{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ width: 580px;
+ height: 222px;
+}
+
+.style{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 30px 20px 0px;
+ gap: 10px;
+ width: 580px;
+ height: 59px;
+}
+
+
+.frame42{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 20px 20px 30px;
+ gap: 20px;
+ width: 580px;
+ height: 163px;
+}
+
+.bar{
+ width: 6px;
+ height: 29px;
+ background: #36FFFF;
+}
+
+.title{
+ width: 79px;
+ height: 36px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 900;
+ font-size: 30px;
+ line-height: 36px;
+ color: #F0F0F0;
+}
+
+.frame42 a{
+  width: 540px;
+  height: 66px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F0F0F0;
+}
+
+.frame53{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 3px 8px 3px 0px;
+gap: 15px;
+width: 540px;
+height: 27px;
+list-style: inline;
+}
+
+.frame53 .frame15{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 3px;
+width: 84px;
+height: 24.5px;
+}
+
+.frame53 .frame17{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 3px;
+width: 76px;
+height: 24.5px;
+}
+
+.frame53 .frame18{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 3px;
+width: 84px;
+height: 24.5px;
+  }
+  
+.frame15 a{
+width: 84px;
+height: 18px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: flex-end;
+color: #596067;
+border-top: 0.5px solid #596067;
+border-bottom: 0.5px solid #596067;
+}
+
+.frame17 a{
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: flex-end;
+color: #596067;
+width: 76px;
+height: 18px;
+border-top: 0.5px solid #596067;
+border-bottom: 0.5px solid #596067;
+}
+
+.frame18 a{
+ width: 84px;
+ height: 18px;
+ font-family: 'IBM Plex Mono';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 18px;
+ display: flex;
+ align-items: flex-end;
+ color: #596067;
+ border-top: 0.5px solid #596067;
+ border-bottom: 0.5px solid #596067;
+}
+
+.frame138{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+width: 1920px;
+height: 1057px;
+}
+
+.frame161{
+  width: 756px;
+  height: 1057px;
+  border-bottom: 1px solid #4B4B4B;
+  border-top: 1px solid #4B4B4B;
+}
+
+.frame161 .all-articles{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 29px;
+width: 756px;
+height: 94px;
+left: 0px;
+top: 0px;
+border-bottom: 1px solid #4B4B4B;
+}
+
+.frame161 .frame19{
+ display: flex;
+ flex-direction: row;
+ align-items: flex-end;
+ padding: 60px 60px 10px 40px;
+ gap: 15px;
+ width: 656px;
+ height: 24px;
+}
+
+.frame161 .frame16{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 3px;
+width: 275px;
+height: 18px;
+padding: 3px 8px 3px 0px;
+
+}
+
+.all-articles a{
+ width: 275px;
+ height: 18px;
+ font-family: 'IBM Plex Mono';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 21px;
+ display: flex;
+ align-items: flex-end;
+ text-decoration-line: underline;
+ color: #00FFFF;
+}
+
+.above-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 29px;
+  width: 1920px;
+  height: 176px;
+  background: #090909;
+}
+
+.to-archive{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 316px;
+  height: 96px;
+  padding: 0px 60px 0px 40px;
+}
+
+.frame10{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 10px;
+width: 12px;
+height: 96px;
+background: #00FFFF;
+}
+
+.go-to-archive{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 10px;
+width: 304px;
+height: 94px;
+border: 1px solid #4B4B4B;
+}
+
+.go-to-archive a{
+  width: 245px;
+  height: 36px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #F0F0F0;
+  padding: 30px;
+}
+
+.above-footer .group54{
+  width: 731px;
+  height: 176px;
+}
+
+.group53{
+  position: absolute;
+  width: 661px;
+  height: 24px;
+  left: 1199px;
+  top: 76px;
+}
+
+.ftame38{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  width: 1920px;
+  height: 306px;
+  background: linear-gradient(180deg, #11181D 0%, #090D10 100%);
+}
+
+#box{ 
+  width: 1720px;
+  height: 18px;
+  position: absolute;
+  padding: 60px 100px 0px;
+}
+
+.box1{ 
+ position: absolute;
+ width: 31.27px;
+ height: 17.81px;
+ left: 100px;
+ top: 60.14px;
+ background: #000000;
+}
+
+.box2{
+  position: absolute;
+  width: 31.27px;
+  height: 17.81px;
+  left: 193.83px;
+  top: 60.14px;
+  background: #000000;  
+}
+
+.box3{
+ position: absolute;
+ width: 31.27px;
+ height: 17.81px;
+ left: 256.36px;
+ top: 60.14px;
+ background: #000000;
+ border-radius: 16px;
+}
+
+.box4{
+ position: absolute;
+ width: 31.27px;
+ height: 17.81px;
+ left: 457.56px;
+ top: 60.14px;
+ background: #000000;
+  }
+  
+  .box5{
+  position: absolute;
+  width: 51.6px;
+  height: 18px;
+  left: 730.66px;
+  top: 60px;
+  background: #000000;
+}
+
+.box6{
+ position: absolute;
+ width: 31.27px;
+ height: 17.81px;
+ left: 818.23px;
+ top: 60.14px;
+ background: #000000;
+ border-radius: 16px;
+}
+
+.box7{
+ position: absolute;
+ width: 31.27px;
+ height: 17.81px;
+ left: 1590.66px;
+ top: 60.14px;
+ background: #000000;
+}
+
+.box8{
+ position: absolute;
+ width: 51.6px;
+ height: 18px;
+ left: 1653.73px;
+ top: 60px;
+ background: #000000;
+ border-radius: 16px;
+}
+
+.box9{
+ position: absolute;
+ width: 31.27px;
+ height: 17.81px;
+ left: 1788.73px;
+ top: 60.14px;
+ background: #000000;
+}
+
+.down_footer{
+ display: flex;
+ flex-direction: row;
+ align-items:   flex-end;
+ padding: 0px;  
+ gap: 50px;
+ width: 1920px;
+ height: 144px;
+ background: #090D10;
+ } 
+
+#down_footer{
+ width: 1920px;
+ height: 144px;
+ background: linear-gradient(180deg, #FF0E3A 0%, rgba(172, 23, 49, 0) 47.48%);
+ transform: rotate(-180deg);
+}
+
+</style>
+</head>
+<body>
+<header>
+   <div id="main">
+               <div id= "logo" href="{{ url_for('test') }}">
+                <img src="logo.svg">
+               </div>
+               <div class = 'logo'><a>Blog</a></div>
+               <div class ="nav">
+               <div  class = "active remove-underline" href ="https://github.com/darkrenaissance/darkfi" ><a>Source code</a></div>
+               <div class = "man remove-underline" href ="https://dark.fi/manifesto.html"><a>Manifesto</a></div>
+               <div class = "actives remove-underline" href = "https://element.dark.fi"><a>Community</a></div>
+               </div>
+               <div href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars"></i>
+               </div>
+
+   </div>
+</header>
+
+<div class = "frame137">
+  <div class = "frame160">
+   <div class= "frame139">
+     <div class = "categories_bar"><a>Categories</a>
+     <ul style="list-style: none;">
+       <li><a class = "remove-underline" href="{ {url_for('insight_archive') }}">Insights</a></li>
+       <li><a class = "remove-underline" href="{{ url_for('technology_archive') }}">Technology</a></li>
+       <li><a class = "remove-underline" href="{{ url_for('history_archive') }}">History</a></li>
+       <li><a class = "remove-underline" href="{{ url_for('market_archive') }}">Markets</a></li>
+       <li><a class = "remove-underline" href="{{ url_for('xenopoetisc_archive') }}">Xenopoetisc</a></li>
+     </ul>
+     </div>
+   </div>
+  </div>
+
+  <div class = "frame136">
+   <div class = "frame61">
+     <div class="frame19">
+      <div class="frame16">
+       <a class ="paragraph" style="font-family: IBMPlexMono-Regular;">Latest articles</a>
+      </div>
+     </div>
+   </div>
+
+   <div class = "group">
+     {% for article in posts %}
+      <div class ="latest-img remove-underline" onclick ="location.href='{{ url_for(article.url) }}';" style="cursor: pointer;">
+       <div class="frame38">
+        <div class ="img-1">
+         <img src ="{{ article.img }}" class = "img-1">
+        </div>
+        <figcaption class = "title-img">
+          <div class = "style"> 
+            <div class= "bar"></div>
+            <div class ="title">{{article.title}}</div>
+          </div>
+          <div class="frame42">
+             <a>{{ article.paragraph }}</a>
+             <div class = "frame53">
+               <div class="frame15"><a>{{article.list1}}</a></div>
+               <div class="frame17"><a class = "remove-underline" href = "{{ url_for(article.url) }}" style="color: #343434;">{{article.list2}}</a></div>
+               <div class="frame18"><a>{{article.list3}}</a></div>
+             </div>
+          </div>
+        </figcaption>
+       </div>
+      </div>
+   {% endfor %}
+  </div>
+ </div>
+</div>
+
+<div class="frame138">
+  <div class = "frame136">
+   <div class = "frame61">
+     <div class="frame19">
+      <div class="frame16">
+       <a class ="paragraph" style="font-family: IBMPlexMono-Regular;">category1</a>
+      </div>
+     </div>
+   </div>
+
+   <div class = "group">
+    {% for article in posts %}
+      <div class ="latest-img remove-underline" onclick ="location.href='{{ url_for(article.url) }}';" style="cursor: pointer;>
+       <div class="frame38">
+        <div class ="img-1">
+         <img src ="{{ article.img }}" class = "img-1">
+        </div>
+        <figcaption class = "title-img">
+          <div class = "style">
+            <div class= "bar"></div>
+            <div class ="title">{{article.title}}</div>
+          </div>
+          <div class="frame42">
+             <a>{{ article.paragraph }}</a>
+             <div class = "frame53">
+               <div class="frame15"><a>{{article.list1}}</a></div>
+               <div class="frame17"><a class = "remove-underline" href = "{{ url_for(article.url) }}" style="color: #343434;">{{article.list2}}</a></div>
+               <div class="frame18"><a>{{article.list3}}</a></div>
+             </div>
+          </div>
+        </figcaption>
+       </div>
+      </div>
+   {% endfor %}
+  </div> 
+  <div class="frame161">
+      <div class = "all-articles">
+         <div class="frame19">
+           <div class="frame16">
+             <a class ="paragraph" style="font-family: IBMPlexMono-Regular;">All Articles</a>
+           </div>
+         </div>
+ 
+  </div>
+
+  </div> 
+</div>
+<div class = "above-footer">
+       <div class ="to-archive">
+        <div class ="frame10"></div>
+        <div class ="go-to-archive"><a class = "remove-underline" href ="{{ url_for('archive') }}">Archive</a></div>
+
+ 
+       </div>
+       <div class ="group54">
+        <div class="group53">
+         <div class="frame38">
+          <a class = "remove-underline" href ="https://mobile.twitter.com/darkfisquad">
+            <img class = "down-follow-img" src="../static/files/icons/twitter.svg">
+          </a>
+          <a class = "remove-underline" href ="https://element.dark.fi">
+            <img class = "down-follow-img" src="../static/files/icons/element.svg">
+          </a>
+          <a class = "remove-underline" href ="https://github.com/darkrenaissance">
+            <img class = "down-follow-img" src="../static/files/icons/github.svg">
+          </a>
+          <a class = "remove-underline" href ="https://t.me/darkrenaissance">
+            <img class = "down-follow-img" src="../static/files/icons/telegram.svg">
+          </a>
+         </div>
+        </div>
+       </div>
+</div>
+
+<footer>
+  <div class = "footer">
+    <div id ="box">
+      <div class ="box1"></div>
+      <div class ="box2"></div>
+      <div class ="box3"></div>
+      <div class ="box4"></div>
+      <div class ="box5"></div>
+      <div class ="box6"></div>
+      <div class ="box7"></div>
+      <div class ="box8"></div>
+      <div class ="box9"></div>
+    </div>
+    </div>
+
+    <div class = "down_footer">
+     <div id="down_footer"></div>
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>
