@@ -4,6 +4,7 @@
   <title>darkfi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = "stylesheet" type = "text/css" href = "../static/css/main.css">
+  <link rel = "stylesheet" type = "text/css" href = "../static/css/main1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
@@ -22,11 +23,21 @@
 
     <div class= "article">
      <div class="list">
-       <ul>
-         <li><a>$list1$</a></li>
-         <li><a class = "remove-underline" href ="$url$" style="color: #343434;">$list2$</a></li>
-         <li><a>$list3$</a></li>
-       </ul>
+             <div class="frame15">
+             <div class="line10"></div>
+             <a>$list1$</a>
+             <div class="line11"></div>
+             </div>
+             <div class="frame17">
+             <div class="line12"></div>
+             <a class = "remove-underline" href = "url" style="color: #7F8A96;">$list2$</a>
+             <div class="line13"></div>          
+             </div>
+             <div class="frame18">
+             <div class="line14"></div>
+             <a>$list3$</a>
+             <div class="line15"></div>            
+             </div>
      </div>
     
      <div class = "container">
@@ -37,16 +48,20 @@
    </div>
   
   <div class = "go-to-article">
+    {% if prev_url %}        
          <span class = "previous-article">
-            {% if posts.$url$ %}
-              <a class = "remove-underline" href="{{posts.$url$}}"><p>(Previous article)</p></a>
-            {% endif %}
+              <a class = "remove-underline" href="{{ url_for(prev_url).next()|int() }}"><p>(Previous article)</p></a>
          </span>
+     {% endif %}
+ 
+
+      
+       {% if next_url %}
          <span class = "next-article">
-            {% if posts.$url$ %}
-              <a class ="remove-underline" href= "{{posts.$url$}}"><p>(Next article)</p></a>
-            {% endif %}
+              <a class ="remove-underline" href= "{{ url_for(next_url) }}"><p>(Next article)</p></a>       
          </span>
+       {% endif %}
+    
    </div>
 
     <footer>
