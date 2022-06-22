@@ -1,17 +1,20 @@
 <header>
-     <div class = "header">
-         <div class = "topnav" id="myTopnav">
-               <img src="../static/files/icons/logo.svg">
-               <h1>Blog</h1>
-               <a class = "active remove-underline" href ="https://github.com/darkrenaissance/darkfi" >Source code</a>
-               <a class = "remove-underline" href ="https://dark.fi/manifesto.html">Manifesto</a>
-               <a class = "actives remove-underline" href = "https://element.dark.fi/">Community</a>
-               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                 <i class="fa fa-bars"></i>
-               </a>
-           </div>
-     </div>
-               <script>
+   <div id="main">
+               <div id= "logo" href="{{ url_for('test') }}">
+                <img src="../static/files/icons/logo.svg">
+               </div>
+               <div class = 'logo'><a>Blog</a></div>
+               <div class ="nav">
+               <div  class = "active remove-underline" href ="https://github.com/darkrenaissance/darkfi" ><a>Source code</a></div>
+               <div class = "man remove-underline" href ="https://dark.fi/manifesto.html"><a>Manifesto</a></div>
+               <div class = "actives remove-underline" href = "https://element.dark.fi"><a>Community</a></div>
+               </div>
+               <div href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars"></i>
+               </div>
+
+   </div>
+             <script>
                function myFunction() {
                  var x = document.getElementById("myTopnav");
                  if (x.className === "topnav") {
@@ -20,6 +23,5 @@
                    x.className = "topnav";
                  }
                }
-               </script>
+             </script>
 </header>
-
