@@ -2053,7 +2053,10 @@ table td{
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 375px){
-
+body{
+ width: 100%;
+ }
+ 
 footer{
  width: 100%;
 }
