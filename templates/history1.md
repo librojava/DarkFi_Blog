@@ -24,7 +24,7 @@ This will add the option auto completion of [`drk`](#drk) and [`darkfid`](#darkf
 
 ![](../static/files/img/background_1.png)
 
-caption
+####### Caption
 
 # H1-Section title
 
@@ -33,24 +33,22 @@ caption
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,similique sunt in culpa qui officia deserunt mollitia animi,id est laborum et dolorum fuga.Et harum quidem rerum facilis est et expedita distinctio.Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facer possimus,omnis voluptas assumenda est,omnis dolor repellendus.Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.Itaque earum rerum hic tentur a sapiente delectus,ut aut reiciendis voluptatibus maiores alias consequatur aut perferndis doloribus asperiores repellat
 
 ```
-
-  if token_id_exists {
-     self.send(pub_key,amount, token_id, false,state).await?;
-  (target: "CLIENT")
-         } else {
-             return Err(ClientFailed::NotEnoughValue(amount));
+if token_id_exists {
+            self.send(pub_key,amount, token_id, false,state).await?;
+(target: "CLIENT")
+        } else {
+            return Err(ClientFailed::NotEnoughValue(amount));
          } 
 
          debug!(target: "CLIENT","End transfer{}",amount);
 
          OK(()
 
-  (100
-  character)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  xxxxxxxxxxxxxxx
+(100
+character)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxx
 
-  }
-
+}
 ```
 
 ### H3-Lorem Ipsum
@@ -68,6 +66,10 @@ Led quia non numquam aius modi tempora incidunt ut labore et dolore magnam aliqu
 ###### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. {.something}
  
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in cuple qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et exepdita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nigil impedit quo id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente, ut aut reiciendis voluptatibus mariores alias consequatur aut perferendis doloribu asperiores repellat.
+
+### H3-Lorem Ipsum
+
+Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 
 ## H2-Lorem Ipsum
 
@@ -109,14 +111,9 @@ At vero eos et accusamus et iusto odio dignissimos ducyimus qui blanditiis praes
 
 Lorem ipsum dolor ait amet, consectetur adispiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 
-1 At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupt quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas  assumenda est, omnis dolor repellendus.<a id="1"></a>
+1 At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupt quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas  assumenda est, omnis dolor repellendus.
 
-<a id="1">
-2
 Book title, Author name, 2020.Link to article:[http://www.coindesk.com/article-name/](#http://www.coindesk.com/article-name/)
-</a>
 
-<a id="1">
-3
 At vero et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati [cupiditate non provident,](#cupiditate non provident,) similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis volptas assumenda est, omnis dolor repellendus.
-</a>
+
